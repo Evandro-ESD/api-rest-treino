@@ -23,8 +23,8 @@ app.get('/', (req, res) => {
 
 👉 Consulta por ID: <a href="/funcionarios/1" target="_blank">/funcionarios/1</a>
 
-👉 Exemplo de requisição:
-curl http://localhost:3001/funcionarios/1
+• Métodos HTTP: POST /funcionarios, PATCH /funcionarios/:id e DELETE /funcionarios/:id
+• Consulte o README para exemplos de criação, atualização e remoção.
       </pre>
    `)
 })

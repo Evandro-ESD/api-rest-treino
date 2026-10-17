@@ -1,0 +1,382 @@
+[
+  {
+    "id": "1",
+    "nome_completo": "Pedro Silva Lima",
+    "numero_matricula": "MAT2026001",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Tecnologia da Informação",
+    "data_nascimento": "1981-04-05",
+    "contato_telefonico": "(11) 99385-9935",
+    "email": "pedro.silva.lima@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Brasil",
+      "numero": "874",
+      "complemento": "Apto 42",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "22280-323"
+    }
+  },
+  {
+    "id": "2",
+    "nome_completo": "Rafael Soares Barbosa",
+    "numero_matricula": "MAT2026002",
+    "filial": "São Paulo - SP",
+    "setor": "Marketing",
+    "data_nascimento": "1983-12-02",
+    "contato_telefonico": "(41) 98451-8359",
+    "email": "rafael.soares.barbosa@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "336",
+      "complemento": "Casa",
+      "bairro": "Jardins",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "46421-259"
+    }
+  },
+  {
+    "id": "3",
+    "nome_completo": "Felipe Costa Souza",
+    "numero_matricula": "MAT2026003",
+    "filial": "São Paulo - SP",
+    "setor": "Comercial",
+    "data_nascimento": "1979-05-04",
+    "contato_telefonico": "(31) 99735-6635",
+    "email": "felipe.costa.souza@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "950",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "59615-180"
+    }
+  },
+  {
+    "id": "4",
+    "nome_completo": "Bruna Gomes Barbosa",
+    "numero_matricula": "MAT2026004",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Marketing",
+    "data_nascimento": "1983-08-17",
+    "contato_telefonico": "(11) 98093-4733",
+    "email": "bruna.gomes.barbosa@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "486",
+      "complemento": "Apto 42",
+      "bairro": "Batel",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "46434-564"
+    }
+  },
+  {
+    "id": "5",
+    "nome_completo": "Maria Ferreira Ribeiro",
+    "numero_matricula": "MAT2026005",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Tecnologia da Informação",
+    "data_nascimento": "1986-12-23",
+    "contato_telefonico": "(11) 99247-3803",
+    "email": "maria.ferreira.ribeiro@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "956",
+      "complemento": "Casa",
+      "bairro": "Jardins",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "83000-324"
+    }
+  },
+  {
+    "id": "6",
+    "nome_completo": "Ana Santos Pereira",
+    "numero_matricula": "MAT2026006",
+    "filial": "São Paulo - SP",
+    "setor": "Financeiro",
+    "data_nascimento": "1992-12-29",
+    "contato_telefonico": "(31) 98135-4456",
+    "email": "ana.santos.pereira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "1352",
+      "complemento": "Casa",
+      "bairro": "Batel",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "70142-246"
+    }
+  },
+  {
+    "id": "7",
+    "nome_completo": "Rodrigo Rodrigues Pereira",
+    "numero_matricula": "MAT2026007",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Operações",
+    "data_nascimento": "2001-03-22",
+    "contato_telefonico": "(41) 99838-7543",
+    "email": "rodrigo.rodrigues.pereira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "293",
+      "complemento": "",
+      "bairro": "Batel",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "21915-873"
+    }
+  },
+  {
+    "id": "8",
+    "nome_completo": "Lucas Souza Rodrigues",
+    "numero_matricula": "MAT2026008",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Operações",
+    "data_nascimento": "1993-12-08",
+    "contato_telefonico": "(11) 98788-7252",
+    "email": "lucas.souza.rodrigues@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Brasil",
+      "numero": "524",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "25014-798"
+    }
+  },
+  {
+    "id": "9",
+    "nome_completo": "Bruna Lima Costa",
+    "numero_matricula": "MAT2026009",
+    "filial": "São Paulo - SP",
+    "setor": "Financeiro",
+    "data_nascimento": "1994-07-03",
+    "contato_telefonico": "(21) 98929-1053",
+    "email": "bruna.lima.costa@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Brasil",
+      "numero": "375",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "49117-961"
+    }
+  },
+  {
+    "id": "10",
+    "nome_completo": "Amanda Barbosa Alves",
+    "numero_matricula": "MAT2026010",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Financeiro",
+    "data_nascimento": "1982-03-31",
+    "contato_telefonico": "(11) 99226-6310",
+    "email": "amanda.barbosa.alves@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "239",
+      "complemento": "Sala 3",
+      "bairro": "Jardins",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "41385-159"
+    }
+  },
+  {
+    "id": "11",
+    "nome_completo": "Rafael Vieira Oliveira",
+    "numero_matricula": "MAT2026011",
+    "filial": "São Paulo - SP",
+    "setor": "Operações",
+    "data_nascimento": "1996-10-19",
+    "contato_telefonico": "(11) 99557-9727",
+    "email": "rafael.vieira.oliveira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "1361",
+      "complemento": "Casa",
+      "bairro": "Savassi",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "31643-371"
+    }
+  },
+  {
+    "id": "12",
+    "nome_completo": "Amanda Barbosa Carvalho",
+    "numero_matricula": "MAT2026012",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Marketing",
+    "data_nascimento": "1984-01-09",
+    "contato_telefonico": "(31) 98817-7118",
+    "email": "amanda.barbosa.carvalho@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Brasil",
+      "numero": "934",
+      "complemento": "Apto 42",
+      "bairro": "Copacabana",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "39451-165"
+    }
+  },
+  {
+    "id": "13",
+    "nome_completo": "Ana Silva Vieira",
+    "numero_matricula": "MAT2026013",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Marketing",
+    "data_nascimento": "1984-11-17",
+    "contato_telefonico": "(11) 98145-1964",
+    "email": "ana.silva.vieira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "74",
+      "complemento": "Sala 3",
+      "bairro": "Centro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "77391-343"
+    }
+  },
+  {
+    "id": "14",
+    "nome_completo": "Rodrigo Lopes Alves",
+    "numero_matricula": "MAT2026014",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Operações",
+    "data_nascimento": "2000-08-12",
+    "contato_telefonico": "(41) 98497-8749",
+    "email": "rodrigo.lopes.alves@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "203",
+      "complemento": "Apto 42",
+      "bairro": "Botafogo",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "66498-462"
+    }
+  },
+  {
+    "id": "15",
+    "nome_completo": "Beatriz Carvalho Almeida",
+    "numero_matricula": "MAT2026015",
+    "filial": "São Paulo - SP",
+    "setor": "Operações",
+    "data_nascimento": "2003-12-27",
+    "contato_telefonico": "(11) 98124-7596",
+    "email": "beatriz.carvalho.almeida@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "519",
+      "complemento": "Bloco B",
+      "bairro": "Copacabana",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "80292-559"
+    }
+  },
+  {
+    "id": "16",
+    "nome_completo": "João Carvalho Ferreira",
+    "numero_matricula": "MAT2026016",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Comercial",
+    "data_nascimento": "1986-03-16",
+    "contato_telefonico": "(11) 98907-2604",
+    "email": "joão.carvalho.ferreira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua XV de Novembro",
+      "numero": "1117",
+      "complemento": "Apto 42",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "40982-270"
+    }
+  },
+  {
+    "id": "17",
+    "nome_completo": "Beatriz Lopes Lopes",
+    "numero_matricula": "MAT2026017",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Comercial",
+    "data_nascimento": "1977-08-18",
+    "contato_telefonico": "(21) 98776-1035",
+    "email": "beatriz.lopes.lopes@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Atlântica",
+      "numero": "941",
+      "complemento": "Sala 3",
+      "bairro": "Batel",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "82845-777"
+    }
+  },
+  {
+    "id": "18",
+    "nome_completo": "Camila Rodrigues Alves",
+    "numero_matricula": "MAT2026018",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Tecnologia da Informação",
+    "data_nascimento": "1977-08-16",
+    "contato_telefonico": "(11) 99531-6138",
+    "email": "camila.rodrigues.alves@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "1206",
+      "complemento": "Casa",
+      "bairro": "Savassi",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "79615-261"
+    }
+  },
+  {
+    "id": "19",
+    "nome_completo": "Lucas Soares Oliveira",
+    "numero_matricula": "MAT2026019",
+    "filial": "Rio de Janeiro - RJ",
+    "setor": "Recursos Humanos",
+    "data_nascimento": "2001-09-10",
+    "contato_telefonico": "(11) 99382-4853",
+    "email": "lucas.soares.oliveira@empresa.com.br",
+    "endereco": {
+      "logradouro": "Av. Paulista",
+      "numero": "1176",
+      "complemento": "Bloco B",
+      "bairro": "Savassi",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "87924-140"
+    }
+  },
+  {
+    "id": "20",
+    "nome_completo": "Jessica Oliveira Carvalho",
+    "numero_matricula": "MAT2026020",
+    "filial": "Belo Horizonte - MG",
+    "setor": "Financeiro",
+    "data_nascimento": "1984-02-29",
+    "contato_telefonico": "(31) 98488-5351",
+    "email": "jessica.oliveira.carvalho@empresa.com.br",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "1385",
+      "complemento": "Sala 3",
+      "bairro": "Batel",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "51441-869"
+    }
+  }
+]
