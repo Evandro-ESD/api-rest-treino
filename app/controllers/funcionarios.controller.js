@@ -42,19 +42,27 @@ export async function criarFuncionarioController(req, res) {
       const funcionario = await cadastrarFuncionario(req.body);
       return res.status(201).json(funcionario);
    }
-   catch (error) {
-      console.error('Erro ao criar funcionário:', error);
 
+   catch (error) {
+      // Erros de negócio esperados: 400, 404, 409 etc.
       if (error.statusCode) {
+         console.warn(
+            `Requisição rejeitada (${error.statusCode}): ${error.message}`
+         );
+
          return res.status(error.statusCode).json({
             message: error.message
          });
       }
 
+      // Erros inesperados: falhas técnicas ou bugs
+      console.error('Erro inesperado ao criar funcionário:', error);
+
       return res.status(500).json({
          message: 'Erro interno no servidor.'
       });
    }
+
 }
 
 export async function atualizarFuncionarioController(req, res) {
@@ -81,7 +89,16 @@ export async function atualizarFuncionarioController(req, res) {
    }
    catch (error) {
       console.error('Erro ao atualizar funcionário:', error);
-      return res.status(500).json({ message: 'Erro interno no servidor.' });
+
+      if (error.statusCode) {
+         return res.status(error.statusCode).json({
+            message: error.message
+         });
+      }
+
+      return res.status(500).json({
+         message: 'Erro interno no servidor.'
+      });
    }
 }
 

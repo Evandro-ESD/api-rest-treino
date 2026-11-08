@@ -1,10 +1,9 @@
-
 import { pool } from '../config/database.js';
 
 export async function todosFuncionarios() {
    const resultado = await pool.query(`
-        SELECT *
-        FROM funcionarios
+SELECT *
+   FROM funcionarios
         ORDER BY id
     `);
 
@@ -26,31 +25,31 @@ export async function criarFuncionario(novoFuncionario) {
       numero_matricula,
       filial,
       setor,
-      email_login,
-      email_contato,
-      ativo = true
+      email,
+      ativo = true,
+      unidade_id = null
    } = novoFuncionario;
 
    const resultado = await pool.query(
-      `INSERT INTO funcionarios (
-            nome_completo,
-            numero_matricula,
-            filial,
-            setor,
-            email_login,
-            email_contato,
-            ativo
-        )
-        VALUES ($1, $2, $3, $4, $5, $6, $7)
-        RETURNING *`,
+      `INSERT INTO funcionarios(
+      nome_completo,
+      numero_matricula,
+      filial,
+      setor,
+      email,
+      ativo,
+      unidade_id
+   )
+VALUES($1, $2, $3, $4, $5, $6, $7)
+RETURNING * `,
       [
          nome_completo,
          numero_matricula,
          filial,
          setor,
-         email_login,
-         email_contato,
-         ativo
+         email,
+         ativo,
+         unidade_id
       ]
    );
 
@@ -63,9 +62,9 @@ export async function atualizarFuncionario(id, dadosAtualizados) {
       'numero_matricula',
       'filial',
       'setor',
-      'email_login',
-      'email_contato',
-      'ativo'
+      'email',
+      'ativo',
+      'unidade_id'
    ];
 
    const campos = Object.keys(dadosAtualizados)
@@ -75,10 +74,12 @@ export async function atualizarFuncionario(id, dadosAtualizados) {
       return buscarFuncionarioPorId(id);
    }
 
-   const valores = campos.map(campo => dadosAtualizados[campo]);
+   const valores = campos.map(
+      campo => dadosAtualizados[campo]
+   );
 
    const atribuicoes = campos.map(
-      (campo, indice) => `${campo} = $${indice + 1}`
+      (campo, indice) => `${campo} = $${indice + 1} `
    );
 
    valores.push(id);
@@ -87,7 +88,7 @@ export async function atualizarFuncionario(id, dadosAtualizados) {
       `UPDATE funcionarios
          SET ${atribuicoes.join(', ')}
          WHERE id = $${valores.length}
-         RETURNING *`,
+RETURNING * `,
       valores
    );
 
