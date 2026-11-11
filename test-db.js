@@ -1,15 +1,21 @@
 
+import assert from 'node:assert/strict';
+import test from 'node:test';
+
 import { pool } from './app/config/database.js';
 
-try {
-   const resultado = await pool.query(
-      'SELECT current_database() AS banco, current_user AS usuario'
-   );
+test('deve conectar ao banco de dados api_rest_treino', async () => {
+   try {
+      const resultado = await pool.query(
+         `SELECT
+            current_database() AS banco,
+            current_user AS usuario`
+      );
 
-   console.log('Conexão estabelecida com sucesso!');
-   console.log(resultado.rows[0]);
-} catch (erro) {
-   console.error('Erro ao conectar ao PostgreSQL:', erro.message);
-} finally {
-   await pool.end();
-}
+      assert.equal(resultado.rows[0].banco, 'api_rest_treino');
+      assert.equal(resultado.rows[0].usuario, 'postgres');
+
+   } finally {
+      await pool.end();
+   }
+});
